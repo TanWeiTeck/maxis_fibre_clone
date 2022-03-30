@@ -5,11 +5,13 @@
         </div>
         <div class="z-0">
             <div class="flex items-center justify-between p-4 h-24 z-0">
-                <img
-                    class="max-w-[15rem] object-contain"
-                    src="https://www.maxis-fibreinternet.com.my/wp-content/uploads/2021/10/maxis_logo-1.jpg"
-                    alt=""
-                />
+                <a href="/fibre">
+                    <img
+                        class="max-w-[15rem] object-contain"
+                        src="https://www.maxis-fibreinternet.com.my/wp-content/uploads/2021/10/maxis_logo-1.jpg"
+                        alt="maxis_logo"
+                    />
+                </a>
 
                 <div
                     class="text-blue-900 justify-end font-extrabold hidden md:block"

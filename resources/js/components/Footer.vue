@@ -4,7 +4,7 @@
             <div class="flex flex-col py-2">
                 <h1 class="pb-2 text-lg font-extrabold">USEFUL LINK</h1>
                 <a class="pt-1" href="#">HOME</a>
-                <a class="pt-1" href="#">APPLY NOW</a>
+                <a class="pt-1" href="/apply">APPLY NOW</a>
                 <a class="pt-1" href="#fibreplan">MAXIS FIBRE PLANS</a>
                 <a class="pt-1" href="#coverage">COVERAGE CHECK</a>
             </div>
@@ -17,8 +17,10 @@
             </div>
             <div class="flex flex-col py-2">
                 <h1 class="pb-2 text-lg font-extrabold">REACH US</h1>
-                <a class="pt-1" href="">+ 6011-3367xxxx</a>
-                <a class="pt-1" href="">sales.maxisinternet@gmail.com</a>
+                <a class="pt-1" href="tel:0123367xxxx">+ 6011-3367xxxx</a>
+                <a class="pt-1" href="mailto:sales.maxisinternet@example.com"
+                    >sales.maxisinternet@gmail.com</a
+                >
             </div>
         </div>
         <div class="px-4 border-t border-blue-800">

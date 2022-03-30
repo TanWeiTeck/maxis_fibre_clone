@@ -11812,6 +11812,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-screen {
   height: 100vh;
 }
+.h-full {
+  height: 100%;
+}
 .max-h-max {
   max-height: -webkit-max-content;
   max-height: -moz-max-content;
@@ -11828,6 +11831,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .min-h-\[20rem\] {
   min-height: 20rem;
+}
+.min-h-\[370px\] {
+  min-height: 370px;
 }
 .w-full {
   width: 100%;
@@ -11880,6 +11886,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .flex-wrap {
   flex-wrap: wrap;
+}
+.content-end {
+  align-content: flex-end;
+}
+.items-end {
+  align-items: flex-end;
 }
 .items-center {
   align-items: center;
@@ -11980,6 +11992,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
+.bg-green-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -12053,6 +12069,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .text-center {
   text-align: center;
+}
+.align-middle {
+  vertical-align: middle;
 }
 .text-xl {
   font-size: 1.25rem;

@@ -33,7 +33,7 @@ return view('welcome', ['fibreplans' => $fibreplans]);
         
         $NewRegister->save();
 
-        return redirect('/fibre');
+        return redirect('/fibre')-> with('mssg', "hi");
     }
 
 

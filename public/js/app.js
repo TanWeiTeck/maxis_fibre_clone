@@ -21718,6 +21718,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -21862,6 +21864,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_types__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_types__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Menu_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Menu.vue */ "./resources/js/components/Menu.vue");
 /* harmony import */ var _asset_btn_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./asset/btn.vue */ "./resources/js/components/asset/btn.vue");
+//
+//
 //
 //
 //
@@ -45702,7 +45706,7 @@ var staticRenderFns = [
             _vm._v("HOME"),
           ]),
           _vm._v(" "),
-          _c("a", { staticClass: "pt-1", attrs: { href: "#" } }, [
+          _c("a", { staticClass: "pt-1", attrs: { href: "/apply" } }, [
             _vm._v("APPLY NOW"),
           ]),
           _vm._v(" "),
@@ -45742,13 +45746,18 @@ var staticRenderFns = [
             _vm._v("REACH US"),
           ]),
           _vm._v(" "),
-          _c("a", { staticClass: "pt-1", attrs: { href: "" } }, [
+          _c("a", { staticClass: "pt-1", attrs: { href: "tel:0123367xxxx" } }, [
             _vm._v("+ 6011-3367xxxx"),
           ]),
           _vm._v(" "),
-          _c("a", { staticClass: "pt-1", attrs: { href: "" } }, [
-            _vm._v("sales.maxisinternet@gmail.com"),
-          ]),
+          _c(
+            "a",
+            {
+              staticClass: "pt-1",
+              attrs: { href: "mailto:sales.maxisinternet@example.com" },
+            },
+            [_vm._v("sales.maxisinternet@gmail.com")]
+          ),
         ]),
       ]),
       _vm._v(" "),
@@ -45982,13 +45991,7 @@ var render = function () {
         "div",
         { staticClass: "flex items-center justify-between p-4 h-24 z-0" },
         [
-          _c("img", {
-            staticClass: "max-w-[15rem] object-contain",
-            attrs: {
-              src: "https://www.maxis-fibreinternet.com.my/wp-content/uploads/2021/10/maxis_logo-1.jpg",
-              alt: "",
-            },
-          }),
+          _vm._m(0),
           _vm._v(" "),
           _c(
             "div",
@@ -46084,11 +46087,25 @@ var render = function () {
         ]
       ),
       _vm._v(" "),
-      _vm._m(0),
+      _vm._m(1),
     ]),
   ])
 }
 var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { attrs: { href: "/fibre" } }, [
+      _c("img", {
+        staticClass: "max-w-[15rem] object-contain",
+        attrs: {
+          src: "https://www.maxis-fibreinternet.com.my/wp-content/uploads/2021/10/maxis_logo-1.jpg",
+          alt: "maxis_logo",
+        },
+      }),
+    ])
+  },
   function () {
     var _vm = this
     var _h = _vm.$createElement

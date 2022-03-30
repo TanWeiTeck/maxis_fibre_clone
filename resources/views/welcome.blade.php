@@ -24,6 +24,7 @@
 
             
             <div class="z-0">
+
             <maxisheader></maxisheader>
             <maxisservice></maxisservice>
             <maxispros></maxispros>
@@ -32,8 +33,8 @@
             @foreach ($fibreplans as $plan)
            
 
-                <div class="m-4 bg-gray-100 border-2 min-w-[22rem] overflow-hidden border-blue-800 hover:border-blue-500 rounded-2xl shadow-md hover:shadow-lg hover:shadow-blue-400 duration-500 snap-center">
-                    <div class="text-blue-900 p-5">
+                <div class="m-4 bg-white border-2 min-w-[22rem] overflow-hidden min-h-[370px] border-blue-800 hover:border-blue-500 rounded-2xl shadow-md hover:shadow-lg hover:shadow-blue-400 duration-500 snap-center">
+                    <div class="text-blue-900 p-5 bg-gray-100">
                         <h1 class="text-xl">Maxis Home Fibre</h1>
                         <p class="text-3xl font-extrabold">{{$plan['name']}}</p>
                     </div>
@@ -44,7 +45,7 @@
                         </ul>
                         <p class="text-[0.6rem]">* Existing customer who change rate plan is not eligible for free DECT phone.</p>
                         <hr class="text-blue-800 border-8 my-3">
-                        <div class="flex justify-between">
+                        <div class="flex justify-between items-center">
                             <h1><span class="text-xl font-extrabold">RM {{$plan['price']}}</span>/month</h1>
                             <a href="{{url('/apply')}}">
                                 <button 
